@@ -77,12 +77,12 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/32c356f610837c9765c62.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/1ee56eca80e83e5a4a42a.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/Kidiloska TG), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+[Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -205,12 +205,12 @@ def start(update: Update, context: CallbackContext):
                                 context.bot.username)),
                          InlineKeyboardButton(
                              text=" 🔮 Updates ",
-                             url="https://t.me/TG_BotZ")
+                             url="https://t.me/Jerry_Logs")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" 🔎Help ",
-                            url="https://t.me/ELIZABETHTG_bot?start=help"),
+                            url="https://t.me/JerryPro_Bot?start=help"),
                          InlineKeyboardButton(
                             text=" 👀Made by 🌹 ",
                              url="https://t.me/LEAVEIY")        
