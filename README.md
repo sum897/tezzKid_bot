@@ -1,21 +1,20 @@
-![Ξ L I Z Λ B Ξ TH](https://telegra.ph/file/c0a6601eeb55951768e11.jpg)
-# Ξ L I Z Λ B Ξ TH
+![J Ξ R R Y](https://telegra.ph/file/32c356f610837c9765c62.jpg)
+# J Ξ R R Y
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51)](https://app.codacy.com/gh/AnimeKaizoku/SaitamaRobot?utm_source=github.com&utm_medium=referral&utm_content=AnimeKaizoku/SaitamaRobot&utm_campaign=Badge_Grade_Settings)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Kidiloskahyper45/tezzaKid_bot/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/rosebakthan)
 
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kidiloskahyper45/tezzKid_bot.git)
  modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
 
-Can be found on telegram as [Ξ L I Z Λ B Ξ TH](https://t.me/Misstezza_bot)
+Can be found on telegram as [J Ξ R R Y](https://t.me/godzilla_bot_support)
 ).
 
-The Support group can be reached out to at [Ξ L I Z Λ B Ξ TH Support](https://t.me/TG_BotZ), where you can ask for help about [Ξ L I Z Λ B Ξ TH](https://t.me/Misstezza_bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [J Ξ R R Y Support](https://t.me/godzilla_bot_support), where you can ask for help about [Ξ L I Z Λ B Ξ TH](https://t.me/Misstezza_bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [Ξ L I Z Λ B Ξ TH](https://t.me/TG_BotZ) 
 
 ## How to setup/deploy.
 
 ### Read these notes carefully before proceeding 
- - Edit any mentions of @TG_BotZ to your own support chat
+ - Edit any mentions of @godzilla_bot_support to your own support chat
  - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot [See this](https://github.com/Kidiloskahyper45/)
 )
  - Lastly, if you are found to run this repo without the code being open sourced or the repository link not mentioned in the bot, we will push a gban for you in our network because of being in violation of the license, you are free to be a dick and not respect the open source code (we do not mind) but we will not be having you around our chats
@@ -58,13 +57,13 @@ An example `config.py` file could be:
 from SaitamaRobot.sample_config import Config
 
 class Development(Config):
-    OWNER_ID = 254318997  # your telegram ID
+    OWNER_ID = 123456  # your telegram ID
     OWNER_USERNAME = "SonOfLars"  # your telegram username
     API_KEY = "your bot api key"  # your api key, as provided by the @botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
-    JOIN_LOGGER = '-1234567890' # some group chat that your bot is a member of
+    JOIN_LOGGER = '-123456' # some group chat that your bot is a member of
     USE_JOIN_LOGGER = True
-    DRAGONS = [18673980, 83489514]  # List of id's for users which have sudo access to the bot.
+    DRAGONS = [123456, 123456]  # List of id's for users which have sudo access to the bot.
     LOAD = []
     NO_LOAD = ['translation']
 ```
@@ -182,4 +181,4 @@ Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (wil
 
 Any other authorship/credits can be seen through the commits.
 
-Should any be missing kindly let us know at [TG_BOTZ🚀](https://t.me/TG_BotZ) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [Support Group🚀](https://t.me/godzilla_bot_support) or simply submit a pull request on the readme.
