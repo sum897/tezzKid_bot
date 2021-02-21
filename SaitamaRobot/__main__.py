@@ -205,7 +205,7 @@ def start(update: Update, context: CallbackContext):
                                 context.bot.username)),
                          InlineKeyboardButton(
                              text=" 🔮 Updates ",
-                             url="https://t.me/Jerry_Logs")
+                             url="https://t.me/Luminous_Logs")
                      ],
                      [
                         InlineKeyboardButton(
