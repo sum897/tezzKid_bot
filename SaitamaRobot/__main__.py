@@ -52,8 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {} How are you ?..., my name is {}!
-I am an ⚡ Anime ⚡ themed safe and fast group management bot.
-Build by ⚡ SUM ⚡, I specialize in managing anime and similar themed groups 💢.
+I am group managing bot.
 You can find my list of available commands with /help.
 """
 
@@ -77,7 +76,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/1ee56eca80e83e5a4a42a.jpg"
+SAITAMA_IMG = ""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
@@ -205,7 +204,7 @@ def start(update: Update, context: CallbackContext):
                                 context.bot.username)),
                          InlineKeyboardButton(
                              text=" 🔮 Updates ",
-                             url="https://t.me/Luminous_Logs")
+                             url="https://t.me/")
                      ],
                      [
                         InlineKeyboardButton(
@@ -213,13 +212,13 @@ def start(update: Update, context: CallbackContext):
                             url="https://t.me/JerryPro_Bot?start=help"),
                          InlineKeyboardButton(
                             text=" 👀Made by 🌹 ",
-                             url="https://t.me/LEAVEIY")        
+                             url="https://t.me/")        
                        
                      ],
                      [
                         InlineKeyboardButton(
                              text=" 🗡️ Source Code ",
-                             url="https://github.com/sum897/tezzKid_bot")
+                             url="https://github.com/")
                     
                     ]]))
     else:
