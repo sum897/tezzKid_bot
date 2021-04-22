@@ -200,28 +200,22 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="🛡️ADD ME🏓",
+                            text="🚴 ADD ME 🏓",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text=" 🔮 Updates ",
+                             text="📣 Updates 📣",
                              url="https://t.me/")
                      ],
                      [
                         InlineKeyboardButton(
-                            text=" 🔎Help ",
+                            text="📃 HELP ",
                             url="https://t.me/JerryPro_Bot?start=help"),
                          InlineKeyboardButton(
-                            text=" 👀Made by 🌹 ",
+                            text="🍁 OWNER 🍁",
                              url="https://t.me/")        
                        
-                     ],
-                     [
-                        InlineKeyboardButton(
-                             text=" 🗡️ Source Code ",
-                             url="https://github.com/sum897/tezzKid_bot")
-                    
-                    ]]))
+                     ]]))
     else:
         update.effective_message.reply_text(
             "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
