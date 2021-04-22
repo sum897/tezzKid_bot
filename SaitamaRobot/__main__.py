@@ -204,7 +204,7 @@ def start(update: Update, context: CallbackContext):
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text="📣 Updates 📣",
+                             text="📣 UPDATES 📣",
                              url="https://t.me/")
                      ],
                      [
@@ -215,7 +215,13 @@ def start(update: Update, context: CallbackContext):
                             text="🍁 OWNER 🍁",
                              url="https://t.me/")        
                        
-                     ]]))
+                     ],
+                     [
+                        InlineKeyboardButton(
+                             text=" 💾 SOURCE CODE ",
+                             url="https://github.com/sum897/tezzKid_bot")
+                    
+                    ]]))
     else:
         update.effective_message.reply_text(
             "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
